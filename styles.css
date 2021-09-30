@@ -3,10 +3,18 @@
     margin: 0;
 }
 
-body {
-    font-family: Open Sans;
+.everything {
+    display: flex;
+    flex-direction: column;
+    margin-left: 120px;
+    margin-right: 120px;
 }
 
+body {
+    max-width: 100%;
+    font-family: Open Sans;
+    background-color: whitesmoke;
+}
 
 header {
     padding-top: 36px;
@@ -21,20 +29,38 @@ header {
 .intro {
     padding-top: 36px;
     padding-bottom: 12px;
-    padding-left: 48px;    
+    padding-left: 48px;
+    background-color: white;    
 }
 
 .dog-block {
+    justify-content: space-evenly;
+    display: flex;
+    flex-wrap: wrap;
     padding-left: 24px;
+    padding-right: 24px;
+    background-color: white;
 }
 
-.dog {
+/* .dog {
     display: inline-block;
     width: 360px;
     margin: 5px;
     vertical-align: top;
     padding: 12px;
+} */
+
+.dog {
+    width: 360px;
+    margin: 5px;
+    padding: 12px;
 }
+
+.dog img {
+    max-width: 100%;
+    height: auto;
+}
+
 .dog .name {
     font-family: Oswald;
 }
