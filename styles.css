@@ -6,8 +6,8 @@
 .everything {
     display: flex;
     flex-direction: column;
-    margin-left: 120px;
-    margin-right: 120px;
+    margin-left: 60px;
+    margin-right: 60px;
 }
 
 body {
@@ -37,23 +37,18 @@ header {
     justify-content: space-evenly;
     display: flex;
     flex-wrap: wrap;
-    padding-left: 24px;
-    padding-right: 24px;
+    padding-left: 28px;
+    padding-right: 28px;
     background-color: white;
+    padding-bottom: 36px;
 }
-
-/* .dog {
-    display: inline-block;
-    width: 360px;
-    margin: 5px;
-    vertical-align: top;
-    padding: 12px;
-} */
 
 .dog {
     width: 360px;
-    margin: 5px;
-    padding: 12px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    margin-left: 8px;
+    margin-right 8px;
 }
 
 .dog img {
@@ -77,4 +72,33 @@ header {
     border-radius: 12px;
     padding: 4px;
     margin: 2px;
+}
+
+footer {
+    font-family: Oswald;
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 100%;
+}
+
+.bottom-button {
+    background-color: #6668ee;
+    height: 100%;
+    text-align: center;
+    position: relative;
+    display:flex;
+}
+
+.bottom-button img {
+    max-height: 400px;
+    max-width: 100%;
+    opacity: 0.4;
+    
+}
+.bottom-button p {
+    font-size: 3vw;
+    color: white;
+    position: absolute;
+    top:40%;
+    left: 32%;
 }
